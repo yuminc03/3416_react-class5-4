@@ -445,7 +445,7 @@ body {
 .gnb_box {}
 
 .gnb_box .hd_top {
-    background: #25b156;
+    background: #147aff;
     color: #fff;
 }
 
@@ -460,7 +460,7 @@ body {
     float: left;
     font-size: 15px;
     line-height: 45px;
-    background: #8e6826;
+    background: #2fd3a2;
     text-align: center;
     font-weight: 400;
     ;
@@ -712,7 +712,7 @@ body {
     height: 800px;
     width: 100%;
     background-size: 150px;
-    background: url(../img/main/mv1.jpg) center no-repeat;
+    background: url(../img/main/mv2.jpg) center no-repeat;
     display: table;
     table-layout: fixed;
 }
@@ -829,7 +829,7 @@ body {
 }
 
 .m_login .s_bt {
-    background: #c79448;
+    background: rgb(0, 68, 255);
     color: #f2f2f2;
     font-size: 20px;
     line-height: 65px;
@@ -863,7 +863,7 @@ body {
 
 /*오버*/
 .m_login .s_bt:hover {
-    background: #f3a721;
+    background: #21f3d0;
 }
 
 .m_login ul li:hover a {

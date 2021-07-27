@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import LogoImg from '../../img/layout/logo-01.jpg';
 
 class Header extends Component {
     render () {
@@ -8,19 +9,19 @@ class Header extends Component {
                 <div className="hd_top">
                     <div className="top_wrap ct1 af">
                     <ul className="hd_left af">
-                        <li className="my1"><b>내정보</b>
+                        <li className="my1"><b>내 정보</b>
                         </li>
                         <li  className="my2"><b><span>1</span>알림</b>
                         </li>
                     </ul>
                     <div className="hd_right">
-                        <p><span>'홍길동'</span>님 반갑습니다.</p>
+                        <p><span>'user'</span> 님 반갑습니다.</p>
                     </div>
                     </div>
                 </div>
                 <div className="h_nav ct1 af">
                     <div className="logo">
-                        <Link to={'/'}><img src={require("../../img/layout/logo-01.jpg")} height="65px" width="200px" alt=""/></Link>
+                        <Link to={'/'}><img src={LogoImg} height="65px" width="200px" alt=""/></Link>
                     </div>
                     <nav className="gnb gnb_admin">
                     <ul className="af">
